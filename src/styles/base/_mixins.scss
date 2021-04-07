@@ -1,0 +1,12 @@
+@mixin square($w, $h,) {
+    width: $w;
+    height: $h;
+    
+}
+
+@mixin font($f, $s, $lh, $c){
+    font-family: $f;
+    font-size: $s;
+    line-height: $lh;
+    color: $c; 
+}

@@ -1,0 +1,67 @@
+extends common/layout
+
+block content
+    main
+        section.block-one
+          .title How Dreamshare works?
+          .photos
+            .photo-one
+              .button-step STEP 1
+              .title-step Sed leo enim, condimentum
+              .text-step
+                | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec
+                | rhoncus a leo sit amet facilisis.
+            .photo-two
+              .button-step STEP 2
+              .title-step.central-photo Morbi velit risus
+              .text-step.central-text
+                | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet
+                | porttitor est.
+            .photo-three
+              .button-step STEP 3
+              .title-step Sed leo enim, condimentum
+              .text-step
+                | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec
+                | rhoncus a leo sit amet facilisis.
+        section.block-two
+          .title Meet a partner for your best holiday
+          .partners-photo
+            .partner-photo-one
+              .photo-1
+              .name Bradley Hunter
+              .about-partner Based in Chicago. I love playing tennis and loud music.
+            .partner-photo-two
+              .photo-2
+              .name Marie Bennett
+              .about-partner
+                | Currently living in Colorado. Lover of art, languages and travelling.
+            .partner-photo-threee
+              .photo-3
+              .name Diana Wells
+              .about-partner
+                | Living in Athens, Greece. I love black and white classics, chillout music
+                | and green tea.
+            .partner-photo-four
+              .photo-4
+              .name Christopher Pierce
+              .about-partner
+                | Star Wars fanatic. I have a persistent enthusiasm to create new things.
+          .partners-botton See other partners
+        section.block-three
+          .title Discover holiday activity ideas
+          .wrapper
+            .one  Sports and Activis
+            .two Wellness and Health
+            .three
+              | Extreme Sports 
+              br
+              |  and Expeditions
+            .four Games
+            .five Culture and Education
+            .six Enjomet and Relaxation
+            .seven Trevelling
+        section.block-four
+          .title Crate your holiday activity
+          label(for='text') Hi! What are your holiday interests?
+          input#text(type='text', name='', placeholder='Enter your insterests')
+          input(type='button', value='Search partners')
